@@ -18,28 +18,12 @@ html {
   font-size: 62.5%;
 }
 
-.container {
-  max-width: 120rem;
-  width: 100%;
-  margin: 0 auto;
-  height: 80vh;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
-
 .gallery {
-  margin: 3rem auto;
   display: grid;
 
-  // grid-template-columns: repeat(6, 1fr);
   grid-template-columns: repeat(6, minmax(9rem, 1fr));
-  grid-template-rows: repeat(5, 15vh);
+  grid-template-rows: repeat(5, 20vh);
 
-  grid-gap: 0.8rem;
-
-  border: 0.8rem solid var(--primary-color);
   background: var(--primary-color);
 
   &__item {
